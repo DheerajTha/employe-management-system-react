@@ -1,14 +1,15 @@
 // src/pages/Login.jsx
 import React, { useState } from "react";
 
-const Login = () => {
+const Login = ({handlerLogin}) => {
+
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
   const handlersubmit = (e) => {
     e.preventDefault(); 
-    console.log(email,password);
+    handlerLogin(email,password);
     setEmail('');
     setPassword('');
   };
