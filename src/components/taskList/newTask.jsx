@@ -18,4 +18,4 @@ const NewTask = ({data}) => {
     )
 }
 
-export default NewTask;
+export default NewTask

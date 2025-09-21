@@ -18,4 +18,4 @@ const CompleteTask = ({data}) => {
   )
 }
 
-export default CompleteTask;
+export default CompleteTask
