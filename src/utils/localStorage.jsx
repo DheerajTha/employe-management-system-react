@@ -1,3 +1,4 @@
+ 
 const employees = [
   {
     id: 1,
@@ -8,7 +9,7 @@ const employees = [
       active: 2,
       newTask: 1,
       completed: 1,
-      failed: 0,
+      failed: 14,
     },
     tasks: [
       {
